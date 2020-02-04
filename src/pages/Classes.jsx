@@ -13,12 +13,12 @@ const Classes = () => {
                 <div className="mnRtHdrDiv">
                     <h1 className='mnRtHdr'>Course Offerings K-12</h1>
                     <ul>
-                        <li>K-12 Tutoring</li>
                     </ul>
                     <h2 className="secRtSubHdr">Coming Soon</h2>
                     <ul>
                         <li>
                             <>After Dinner with Scratch Ages 10-13</> 
+                        <li>K-12 Tutoring</li>
                         </li>
                         <li>And Much More to Come</li>
                     </ul>

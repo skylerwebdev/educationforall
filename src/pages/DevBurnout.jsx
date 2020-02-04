@@ -7,13 +7,15 @@ const DevBurnout = () => {
                     <div className="pageMain">
             <div className="pageTop">
                 <div className="ptLt"></div>
-                <div className="ptCt"><h1 className="ctrHdr">Not Another Technical Institute</h1></div>
+                <div className="ptCt"><h1 className="ctrHdr">Education for All</h1></div>
                 <div className="ptRt"></div>
             </div>
             <div className="pageMid">
                 <div className="pmLt">
                     <h2>Full Time 4 Week Developer Burnout Class Starts</h2>
-                    <Link to='/apply'>Apply Today</Link>
+                    {/* <Link to='/apply'>Apply Today</Link>
+                     */}
+                     <h3>More Information?</h3><h3> Email: information@eduforall.tech</h3>
                     <h2>This program includes 80+ Hours of live instructor based training.</h2>
                     <h4 className='homep'>What you will learn in the 4 week Developer Burnout</h4>
                     <ul>

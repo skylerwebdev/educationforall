@@ -58,7 +58,7 @@ const Home = () => {
                         <li>Career Counselors</li>
                     </ul>
                     <p>More Information?</p>
-            Email: skylerwebdev@gmail.com
+            Email: information@eduforall.tech
                 </div>
                 <div className="mnLtDiv"></div>
             </div>

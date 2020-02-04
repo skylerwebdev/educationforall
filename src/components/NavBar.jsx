@@ -26,13 +26,13 @@ const NavBar = () => {
             <p>{size.width}</p>
             </div>
             <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
-            <NL className="nL" exact to='/'>Home</NL>
-            <NL className="nL" to='/about'>About</NL>
-            <NL className="nL" to='/classes'>Classes</NL>
             </div>
             <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}>
-            <NL className="nL button" to='/logout'>Logout</NL>
-            <NL className="nL button" to='#'>Register</NL>
+            {/* <NL className="nL button" to='/logout'>Logout</NL>
+            <NL className="nL button" to='#'>Register</NL> */}
+            <NL className="nL" exact to='/'>Home</NL>
+            {/* <NL className="nL" to='/about'>About</NL> */}
+            <NL className="nL" to='/classes'>Classes</NL>
             </div>
         </div>) :
         (
@@ -42,14 +42,14 @@ const NavBar = () => {
                 <p>{size.width}</p>
                 </div>
                 <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
+                </div>
+                {/* {/* <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}> */}
+                {/* <NL className="nL button" to='/login'>Login</NL> */}
                 <NL className="nL" exact to='/'>Home</NL>
-                <NL className="nL" to='/about'>About</NL>
+                {/* <NL className="nL" to='/about'>About</NL> */}
                 <NL className="nL" to='/classes'>Classes</NL>
-                </div>
-                <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}>
-                <NL className="nL button" to='/login'>Login</NL>
-                <NL className="nL button" to='#'>Register</NL>
-                </div>
+                {/* <NL className="nL button" to='#'>Register</NL> */}
+                {/* </div> */} */}
             </div>) 
     )
 }
