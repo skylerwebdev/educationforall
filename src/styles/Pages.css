@@ -1,0 +1,66 @@
+/* 
+
+    font-family: 'Fira Code', monospace;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+ */
+ .mnFtr{
+     text-align: center;
+ }
+.pageMain{
+    
+}
+.pageTop{
+    display: flex;
+    flex-direction: row;
+}
+.ptLt{
+    flex-grow: 1;
+    text-align: left;
+}
+.ptCt{
+    flex-grow: 2;
+}
+.ptRt{
+    flex-grow: 1;
+}
+.pageMid{
+    display: flex;
+    flex-direction: row;
+}
+.pmLt, .pmRt{
+    flex-grow: 1;
+}
+.pmCt{
+    flex-grow: 2;
+}
+.pageBot{
+    display: flex;
+    flex-direction: row;
+}
+.pbLt, .pbCt{
+    flex-grow: 1;
+}
+.pbRt{
+    flex-grow: 2;
+}
+.ctrHdr{
+padding: 1rem;
+}
+.homep{
+    text-align: left;
+    padding: .8rem;
+    /* padding-left: 15rem; */
+}
+li{
+    text-align: left;
+}
+
+@media screen and (min-width: 768px){
+
+}
