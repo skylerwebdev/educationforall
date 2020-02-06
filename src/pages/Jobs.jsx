@@ -34,7 +34,7 @@ const Jobs = () => {
             </div>
             </div>
             <div className="pgFtr">
-                <h1 className="pgFtrH1 HH1"><a href='#'>APPLY TODAY</a></h1>
+                <h1 className="pgFtrH1 HH1"><a href='https://forms.gle/5YHLiQgKLzAUhz1TA'>APPLY TODAY</a></h1>
             </div>
         </div>
     )

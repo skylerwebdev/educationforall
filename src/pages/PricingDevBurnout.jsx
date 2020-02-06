@@ -8,7 +8,7 @@ const PricingDevBurnout = () => {
             <div className="mnHdr">
                 <h1 className="mnHdr HH1">4 Week Developer Burnout Pricing</h1>
     <h2 className="mnSubHdr SH2">Have Development Experience?</h2>
-    <h5 className="mnSubSubHdr SH5">Looking for 5 Individuals to be <L to='interns/leads'>Team Leads</L> and attend the class for FREE</h5>
+    <h5 className="mnSubSubHdr SH5">Looking for 5 Individuals to be Team Leads and attend the class for FREE</h5>
             <div className="mnBd">
                 <div className="mnBdLt">
                 <h4>Introductory Pricing for the first 25 Day and Evening (50 Total)</h4>
@@ -34,7 +34,7 @@ const PricingDevBurnout = () => {
             </div>
             </div>
             <div className="pgFtr">
-                <h1 className="pgFtrH1 HH1"><a href='#'>APPLY TODAY</a></h1>
+                <h1 className="pgFtrH1 HH1"><a href='https://forms.gle/YkrVF7reHZsqji4n6'>APPLY TODAY</a></h1>
             </div>
         </div>
     )

@@ -23,7 +23,6 @@ const NavBar = () => {
         <div className={open && size.width < 768 ?"mN full":"mN"}>
             <div className="nLt">
             <span className="open"  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
-            <p>{size.width}</p>
             </div>
             <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
             </div>
@@ -39,7 +38,6 @@ const NavBar = () => {
             <div className={open && size.width < 768 ?"mN full":"mN"}>
                 <div className="nLt">
                 <span className="open "  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
-                <p>{size.width}</p>
                 </div>
                 <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
                 </div>
