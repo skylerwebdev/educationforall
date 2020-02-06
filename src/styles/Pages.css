@@ -9,58 +9,49 @@
     font-family: 'IBM Plex Sans', sans-serif;
 
  */
- .mnFtr{
-     text-align: center;
- }
-.pageMain{
-    
-}
-.pageTop{
+
+ .mnBd{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
 }
-.ptLt{
-    flex-grow: 1;
+ol{
+    list-style-type: none;
+}
+.mission{
+    margin-top: -20px;
+}
+
+a{
+text-decoration: underline;
+    color:black;
+}
+.mnLt, .mnRt{
+    flex: 1 1 0px;
+}
+
+.mnFtr{
+    text-align: center;
+}
+.SH5{
+    font-size: .82rem;
+}
+ul, ol{
     text-align: left;
 }
-.ptCt{
-    flex-grow: 2;
+.mnSubSubHdr{
+    margin-top: -15px;
 }
-.ptRt{
-    flex-grow: 1;
-}
-.pageMid{
-    display: flex;
-    flex-direction: row;
-}
-.pmLt, .pmRt{
-    flex-grow: 1;
-}
-.pmCt{
-    flex-grow: 2;
-}
-.pageBot{
-    display: flex;
-    flex-direction: row;
-}
-.pbLt, .pbCt{
-    flex-grow: 1;
-}
-.pbRt{
-    flex-grow: 2;
-}
-.ctrHdr{
-padding: 1rem;
+.styleU{
+    list-style-type: disc;
+    text-align: center;
 }
 .homep{
     text-align: left;
-    padding: .8rem;
-    /* padding-left: 15rem; */
 }
-li{
-    text-align: left;
+@media screen and (min-width: 768px) {
+.mnBd{
+    flex-direction: row;
 }
-
-@media screen and (min-width: 768px){
 
 }

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { NavLink as NL } from 'react-router-dom'
 import '../styles/Nav.css'
 import useWindowSize from '../configs/useWindowSize'
-
+import banner from '../sources/images/banner.png'
 const NavBar = () => {
     const size = useWindowSize();
     const [open, setOpen] = useState(false)
@@ -22,7 +22,7 @@ const NavBar = () => {
         localStorage.getItem("token") ? (
         <div className={open && size.width < 768 ?"mN full":"mN"}>
             <div className="nLt">
-            <span className="open nL"  onClick={shownav}>Education for All</span>
+            <span className="open"  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
             <p>{size.width}</p>
             </div>
             <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
@@ -31,14 +31,14 @@ const NavBar = () => {
             {/* <NL className="nL button" to='/logout'>Logout</NL>
             <NL className="nL button" to='#'>Register</NL> */}
             <NL className="nL" exact to='/'>Home</NL>
-            {/* <NL className="nL" to='/about'>About</NL> */}
             <NL className="nL" to='/classes'>Classes</NL>
+            <NL className="nL" to='/jobs'>Jobs</NL>
             </div>
         </div>) :
         (
             <div className={open && size.width < 768 ?"mN full":"mN"}>
                 <div className="nLt">
-                <span className="open nL"  onClick={shownav}>Education for All</span>
+                <span className="open "  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
                 <p>{size.width}</p>
                 </div>
                 <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
@@ -48,8 +48,10 @@ const NavBar = () => {
                 <NL className="nL" exact to='/'>Home</NL>
                 {/* <NL className="nL" to='/about'>About</NL> */}
                 <NL className="nL" to='/classes'>Classes</NL>
+                <NL className="nL" to='/jobs'>Jobs</NL>
+
                 {/* <NL className="nL button" to='#'>Register</NL> */}
-                {/* </div> */} */}
+                {/* </div> */}
             </div>) 
     )
 }

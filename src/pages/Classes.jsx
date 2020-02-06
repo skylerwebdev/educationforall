@@ -18,6 +18,7 @@ const Classes = () => {
                     <ul>
                         <li>
                             <>After Dinner with Scratch Ages 10-13</> 
+                            <li>Private Home School</li>
                         <li>K-12 Tutoring</li>
                         </li>
                         <li>And Much More to Come</li>
@@ -37,14 +38,13 @@ const Classes = () => {
                         <li>16 Week Developer Course</li>
                         <li>8 Week Part Time Burnout Course</li>
                         <li>32 Week Part Time Developer Course</li>
-                            <>Individual Computer Training (Windows, oSX, and Linux)</>
+                            <li>Individual Computer Training (Windows, oSX, and Linux)</li>
                         <li>
                             <>Individual Tutoring Development</>
                         </li>
                         <li>College Tutoring</li>
                         <li>Interview Prep</li>
-                        <li>
-                        </li>
+                       
                         <li><>Contiuing Education</></li>
                     </ul>
                 </div>
