@@ -45,7 +45,7 @@ const Classes = () => {
                         <li>College Tutoring</li>
                         <li>Interview Prep</li>
                        
-                        <li><>Contiuing Education</></li>
+                        <li><>Continuing Education</></li>
                     </ul>
                 </div>
                 <div className="mnLtDiv"></div>
