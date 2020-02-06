@@ -12,10 +12,10 @@ const Jobs = () => {
                 <div className="mnBdLt">
                     <h2 className="mnBdLtHdr HH2">Hiring / Selection Process</h2>
                     <ol className='mnBdLtOl'>
-                        <li><a href='#'> 1. Apply</a></li>
-                        <li><a href='#'>2. Take assessments</a> (if applicable)</li>
+                        <li><a href='https://forms.gle/5YHLiQgKLzAUhz1TA'> 1. Apply</a></li>
+                        <li><a href='/construction'>2. Take assessments</a> (if applicable)</li>
                         <li>3. Interview</li>
-                        <li><a href='#'>4. Submit Needed Documentation</a></li>
+                        <li><a href='/construction'>4. Submit Needed Documentation</a></li>
                         <li>5. Wait to be contacted</li>
                     </ol>
                 </div>

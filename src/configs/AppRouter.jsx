@@ -12,6 +12,7 @@ import Home from '../pages/Home'
 import Classes from '../pages/Classes'
 import Jobs from '../pages/Jobs'
 import PricingDevBurnout from '../pages/PricingDevBurnout'
+import Construction from '../pages/Construction'
 const AppRouter = () => {
     return (
         <div>
@@ -20,7 +21,7 @@ const AppRouter = () => {
             <R path='/classes'>{Classes}</R>
             <R  path='/devburnout/price'>{PricingDevBurnout}</R>
             <R  path='/devburnout'>{DevBurnout}</R>
-
+            <R path='/construction'>{Construction}</R>
             <R path="/jobs">{Jobs}</R>
             
             <R exact path='/login'>{Login}</R>
