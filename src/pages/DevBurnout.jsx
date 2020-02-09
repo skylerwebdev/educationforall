@@ -8,11 +8,10 @@ const DevBurnout = () => {
         <div className='mnPg'>
             <div className="mnHdr">
                 <h1 className="mnHdr HH1">Four Week Developer Burnout Course</h1>
-               <h2 className="mnSubSubHdr">80+ Hours of live instructor based training.</h2>
     <h2 className="mnSubHdr SH2">Day and Evening Classes Avaliable</h2>
     <h5 className="mnSubSubHdr">Day Classes start at 8am CST and end at 5pm CST</h5>
     <h5 className="mnSubSubHdr">Evening Classes Start at 5pm CST and end at 10pm CST and will be 5 weeks</h5>
-
+    <h3 className="mnSubSubHdr">ALL CLASSES ARE LIVE AND LED BY AN INSTRUCTOR</h3>
             <div className="mnBd">
                 <div className="mnBdLt">
                     <h2 className="mnBdLtHdr HH2">What you will learn</h2>
@@ -38,13 +37,13 @@ const DevBurnout = () => {
                 <div className="mnBdRt">
                 <h2 className="mnBdRtHdr HH2">What you will get out of it</h2>
                 <ul className='mnBdLtOl'>
-                        <li>80+ Hours of instructor based lessons</li>
+                        <li>80+ Hours of LIVE INSTRUCTION using ZOOM</li>
                         <li>100+ Hours of hands on coding experience</li>
                         <li>Experience working on a team and using Git in a team environment</li>
                         <li>Proper knowledge of how to research issues</li>
                         <li>A portfolio with your own work</li>
                         <li>Continuing Education - you will have access to any future course materials</li>
-                        <li>Access to a growing development community</li>
+                        <li>Access to a growing development community on our exclusive Slack channel</li>
                     </ul>
                 </div>
             </div>
