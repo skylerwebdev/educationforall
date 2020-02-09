@@ -34,7 +34,7 @@ const PricingDevBurnout = () => {
                                             <li>$200 to Reserve a Seat</li>
                                             <li>$250 before the beginning of each instruction week</li>
                                             </ul>
-                <h1 className="pgFtrH1 HH1"><a href='https://forms.gle/9dNqTRR18WnabLxq5'>APPLY TODAY</a></h1>
+                <h1 className="pgFtrH1 HH1"><a href='https://forms.gle/9dNqTRR18WnabLxq5'>RESERVE A SEAT TODAY</a></h1>
                 <p>Class sizes limited to 50 people!</p>
             </div>
         </div>
