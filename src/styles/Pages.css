@@ -53,5 +53,11 @@ ul, ol{
 .mnBd{
     flex-direction: row;
 }
+.mnPage{
+    margin-top: 15px;
+}
+.mnBdRt{
+    margin-left: 1rem;
+}
 
 }
