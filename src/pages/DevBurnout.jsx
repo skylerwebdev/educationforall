@@ -9,6 +9,8 @@ const DevBurnout = () => {
             <div className="mnHdr">
                 <h1 className="mnHdr HH1">Four Week Developer Burnout Course</h1>
     <h2 className="mnSubHdr SH2">Day and Evening Classes Avaliable</h2>
+    <h3 className="mnSubSubHdr SH2">Evening Classes Starting as soon as 3/1/2020</h3>
+    <h3 className="mnSubSubHdr SH2">Day Classes Starting as soon as 3/30/2020</h3>
     <h5 className="mnSubSubHdr">Day Classes start at 8am CST and end at 5pm CST</h5>
     <h5 className="mnSubSubHdr">Evening Classes Start at 5pm CST and end at 10pm CST and will be 5 weeks</h5>
     <h3 className="mnSubSubHdr">ALL CLASSES ARE LIVE AND LED BY AN INSTRUCTOR</h3>
