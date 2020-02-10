@@ -7,16 +7,16 @@ const DevBurnout = () => {
 
         <div className='mnPg'>
             <div className="mnHdr">
-                <h1 className="mnHdr HH1">Four Week Developer Burnout Course</h1>
-    <h2 className="mnSubHdr SH2">Day and Evening Classes Avaliable</h2>
-    <h3 className="mnSubSubHdr SH2">Evening Classes Starting as soon as 3/1/2020</h3>
-    <h3 className="mnSubSubHdr SH2">Day Classes Starting as soon as 3/30/2020</h3>
-    <h5 className="mnSubSubHdr">Day Classes start at 8am CST and end at 5pm CST</h5>
-    <h5 className="mnSubSubHdr">Evening Classes Start at 5pm CST and end at 10pm CST and will be 5 weeks</h5>
-    <h3 className="mnSubSubHdr">ALL CLASSES ARE LIVE AND LED BY AN INSTRUCTOR</h3>
+                <h1 className="mnHdr HH1">Developer Burnout Course</h1>
+                <h5 className="up10">80+ HOURS OF LIVE INSTRUCTION</h5>
+                    <h2 className="mnSubHdr up20 SH2">Day and Evening Classes Avaliable</h2>
+    <h4 className="mnSubSubHdr SH2">5 Week Evening Classes Start 3/2/2020</h4>
+    <h4 className="mnSubSubHdr up20">4 Week Day Classes Start 3/30/2020</h4>
+    <h5 className="mnSubSubHdr up 10">Day 8am - 5pm CST</h5>
+    <h5 className="up20">Evening 5pm - 10pm PST</h5>
             <div className="mnBd">
                 <div className="mnBdLt">
-                    <h2 className="mnBdLtHdr HH2">What you will learn</h2>
+                    <h2 className="mnBdLtHdr HH2">You will learn</h2>
                     <ul>
                         <li>Git</li>
                         <li>BASH</li>
