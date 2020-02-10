@@ -3,11 +3,10 @@ import {Link} from 'react-router-dom'
 import '../styles/Home.css'
 const Classes = () => {
     return (
-        <div className='mnPage'>
+        <div className='mnPg'>
+           
+                 <h2>Classes</h2>
             
-            <div className="mnHdr"><h1>Education for All</h1>
-            <h2>Classes</h2>
-            </div>
             <div className="mnBd">
             <div className="mnRt">
                 <div className="mnRtHdrDiv">

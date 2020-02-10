@@ -4,12 +4,14 @@ import '../styles/Pages.css'
 import CarouselComponent from '../components/CarouselComponent'
 const Home = () => {
     return (
-        <div className='mnPage'>
-            <CarouselComponent />
+        <div className='mnPg'>
+            {/* <CarouselComponent /> */}
             <div className="mnHdr">
             
-            <h1>WE ARE NOT A CODING BOOTCAMP</h1>
-            <p>We would not like to be looked at as a "coding bootcamp" that term tends to be overrated and overused. Most coding bootcamps promise you that when you graduate you will magically be handed a job. Unfortunately, that is not the case at all. In order FOR MOST PEOPLE to be considered for a job as a professional developer they must have 1000+ hours of coding under their belts, have a professional resume, and have a professional portfolio.</p><p> <Link to='/devburnout'>Our 4 Week Burnout</Link> only gives you 100-150 hours of "hands on coding" experience. Never fear At Education for All we will not leave you hanging. Once you graduate from one of our programs you will automatically be hired as an intern. This will not only give you more hours of coding experience, real life portfolio pieces, and most importantly a job for your resume. SOME internships may even put a little bit of money in your pocket as well. </p>
+            <h1 className='mnHdr hmHdrH1'>NOT A CODING BOOTCAMP</h1>
+            <h2 className="mnSubHdr SH2">"Coding Bootcamp" is a term that tends to be overrated and overused.</h2>
+            <p>Most coding bootcamps promise that when you graduate you will magically be handed a job.
+                 Unfortunately, that is not the case. In order for MOST PEOPLE to be considered for a job as a professional developer they must have 1000+ hours of coding under their belts, have a professional resume, and have a professional portfolio.</p><p> <Link to='/devburnout'>Our 4 Week Burnout</Link> only gives you 100-150 hours of "hands on coding" experience. Never fear At Education for All we will not leave you hanging. Once you graduate from one of our programs you will automatically be hired as an intern. This will not only give you more hours of coding experience, real life portfolio pieces, and most importantly a job for your resume. SOME internships may even put a little bit of money in your pocket as well. </p>
             </div>
             <div className="mnBd">
             <div className="mnRt">

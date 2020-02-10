@@ -1,57 +1,46 @@
-import React, {useState} from 'react'
-import { NavLink as NL } from 'react-router-dom'
-import '../styles/Nav.css'
-import useWindowSize from '../configs/useWindowSize'
-import banner from '../sources/images/banner.png'
+import React, { useState } from "react";
+import { NavLink as NL } from "react-router-dom";
+import "../styles/Nav.css";
+import useWindowSize from "../configs/useWindowSize";
+import E from "../sources/images/E.svg";
+
 const NavBar = () => {
-    const size = useWindowSize();
-    const [open, setOpen] = useState(false)
+  const size = useWindowSize();
+  const [open, setOpen] = useState(false);
 
-    const shownav = () => {
-    if(open === true){
-        setOpen(false)
-        console.log("clicked")
-    } if(open === false)
-    {
-        setOpen(true)
+  const shownav = () => {
+    if (size.width > 768 || open === true) {
+      setOpen(false);
+      console.log("clicked");
     }
+    if (open === false) {
+      setOpen(true);
     }
+  };
 
+  return (
+    <div className={open && size.width < 768 ? "mN full" : "mN"}>
+      <div className="nLt">
+        <span className="open" onClick={shownav}>
+        <img src={E} alt="Logo" className="logo"/>
+        </span>
+      </div>
 
-    return (
-        localStorage.getItem("token") ? (
-        <div className={open && size.width < 768 ?"mN full":"mN"}>
-            <div className="nLt">
-            <span className="open"  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
-            </div>
-            <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
-            </div>
-            <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}>
-            {/* <NL className="nL button" to='/logout'>Logout</NL>
-            <NL className="nL button" to='#'>Register</NL> */}
-            <NL className="nL" exact to='/'>Home</NL>
-            <NL className="nL" to='/classes'>Classes</NL>
-            <NL className="nL" to='/jobs'>Jobs</NL>
-            </div>
-        </div>) :
-        (
-            <div className={open && size.width < 768 ?"mN full":"mN"}>
-                <div className="nLt">
-                <span className="open "  onClick={shownav}><img src={banner} alt="banner" className="bannerImg"/></span>
-                </div>
-                <div className={!open || size.width > 768 ? "nCt hidden" : "nCt"}>
-                </div>
-                {/* {/* <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}> */}
-                {/* <NL className="nL button" to='/login'>Login</NL> */}
-                <NL className="nL" exact to='/'>Home</NL>
-                {/* <NL className="nL" to='/about'>About</NL> */}
-                <NL className="nL" to='/classes'>Classes</NL>
-                <NL className="nL" to='/jobs'>Jobs</NL>
+      <div className={open || size.width < 768 ? "nCt hidden" : "nCt"}>
+         <p className="nL center" >Education for All</p> 
+      </div>
+      <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}>
+        <NL className="nL" onClick={shownav} exact to="/">
+          About
+        </NL>
+        <NL className="nL" onClick={shownav} to="/classes">
+          Courses
+        </NL>
+        <NL className="nL" onClick={shownav} to="/jobs">
+            Careers        </NL>
+      </div>
+    </div>
+  );
+};
 
-                {/* <NL className="nL button" to='#'>Register</NL> */}
-                {/* </div> */}
-            </div>) 
-    )
-}
-
-export default NavBar
+export default NavBar;

@@ -1,13 +1,10 @@
 /* 
 
-    font-family: 'Fira Code', monospace;
-
-    font-family: 'Roboto', sans-serif;
-
-    font-family: 'Ubuntu', sans-serif;
-
-    font-family: 'IBM Plex Sans', sans-serif;
-
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Staatliches', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
  */
  .mN{
     display: flex;
@@ -15,19 +12,27 @@
     background-color: black;
     text-align: center;
     height: 6rem;
+    transition: height 2s;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+    /* justify-content: space-between; */
+    /* align-content: space-between; */
 }
 .full{
-    height: 780px;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
 }
 
 .nL{
     text-decoration: none;
-    color: #569cd6;
-    font-size: 1rem;
+    color: #ffffff;
+    font-size: 21px;
     font-weight: bold;
-    border-top: 1px solid #569cd6;
+    border-top: 1px solid #c1c8e4;
     padding: .5rem;
-    font-family: 'Fira Code';
+    font-family: 'Roboto', sans-serif;
     
 }
 .nL:first-child{
@@ -45,7 +50,6 @@
 .hidden{
     display: none;
 }
-
 .open{
     cursor: pointer;
 }
@@ -53,11 +57,12 @@ a{
     cursor: pointer !important;
 
 }
-
-.bannerImg{
-    width: 275px;
-    margin-top: 15px;
-    margin-bottom: -5px;
+.logo{
+    margin-top: 25px;
+}
+.center:hover{
+    color: #ffffff;
+    cursor: default;
 }
 @media screen and (min-width: 768px) {
     span{
@@ -75,16 +80,24 @@ a{
     margin-top: 1.7rem;
 }
 .nCt{
-    flex-grow: 2;
+    flex-grow: 1;
     justify-content: center;
 }
 .nRt, .nLt{
     flex-grow: 1;
 }
+.nCt{
+    margin-top: -35px;
+    padding-left: 13rem;
+}
+.nRt{
+justify-self: flex-end;
+text-align: right;
+}
 .bannerImg{
     margin-top: -5px;
     margin-bottom: 0;
-    margin-left: 10px;
+    margin-left: 2rem;
 }
 .nRt{
     margin-right: 1rem;
@@ -94,8 +107,7 @@ a{
     /* margin-left: 1rem; */
 }
 .nL{
-    margin-right: 1rem;
-    margin-top: 15px;
+    /* margin-right: 1rem; */
     border: none;
     cursor: pointer;
 
@@ -122,6 +134,10 @@ a{
 .open{
 flex-wrap: nowrap;    
 white-space: nowrap;
+}
+.logo{
+    margin-top: 0;
+    margin-left: 20px;
 }
 }
 

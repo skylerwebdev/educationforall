@@ -13,6 +13,7 @@ import Classes from '../pages/Classes'
 import Jobs from '../pages/Jobs'
 import PricingDevBurnout from '../pages/PricingDevBurnout'
 import Construction from '../pages/Construction'
+
 const AppRouter = () => {
     return (
         <div>

@@ -1,63 +1,137 @@
-/* 
-
-    font-family: 'Fira Code', monospace;
-
-    font-family: 'Roboto', sans-serif;
-
-    font-family: 'Ubuntu', sans-serif;
-
-    font-family: 'IBM Plex Sans', sans-serif;
-
- */
-
- .mnBd{
+.mnPg{
+    padding-top: 85px;
+}
+.mnBd{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-ol{
+li{
     list-style-type: none;
 }
-.mission{
-    margin-top: -20px;
-}
+.portfolioPhoto{
+    width: 50%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px grey;
+    cursor: pointer;}
 
 a{
 text-decoration: underline;
     color:black;
 }
-.mnLt, .mnRt{
+.mnBdLt, .mnBdRt{
     flex: 1 1 0px;
 }
-
+.modalImg{
+    width:100%;
+}
+.mnPgHdDPf{
+    border-bottom: 1px solid black;
+}
 .mnFtr{
     text-align: center;
 }
-.SH5{
-    font-size: .82rem;
-}
-ul, ol{
+/*  */
+
+
+.alignLeft{
     text-align: left;
 }
-.mnSubSubHdr{
-    margin-top: -15px;
+li{
+margin-left: -35px;
 }
-.styleU{
-    list-style-type: none;
-    text-align: center;
+.SL{
+    margin-left: -35px;
 }
-.homep{
-    text-align: left;
+.techBoxHdr{
+    margin-left: 15px;
 }
+.techBox, .projBox{
+    width: 96%;
+    margin:0 auto;
+}
+.eduBanner{
+    width:95%;
+}
+.up10{
+    margin-top: -10px;
+}
+.mnBdCtLt, .mnBdCtRt, .mnBdCtCt{
+    border: 1px solid black;
+    /* min-width: 256px; */
+    box-shadow: black 4px 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.mnBdCtLt:hover, .mnBdCtRt:hover, .mnBdCtCt:hover{
+    box-shadow: none;
+        border: none;
+    }
 @media screen and (min-width: 768px) {
 .mnBd{
     flex-direction: row;
 }
-.mnPage{
-    margin-top: 15px;
+.modalImg{
+    width:100%;
 }
-.mnBdRt{
-    margin-left: 1rem;
+.techBoxHdr{
+    margin-left: 155px;
 }
+.techBoxBody{
+    display: flex;
+    justify-content: space-around;
+}
+.projBox{
+    display: flex;
+    flex-direction: row;
+}
+    .projBoxLt{
+        flex:1;
+        margin-top: 15px;
+    }
+    .projBoxRt{
+        flex: 2;
+        text-align: left;
+    }
+    .SL{
+        list-style-type: disc;
+    }
+.mnBdFl{
+display: flex;
+flex-direction:  column;
+}
+.mnBdCt{
+    display: flex;
+    justify-content: space-between;
+}
+.mnBdTp{
+    justify-content: center;
+    margin:0 auto;
+}
+.mnBdTpCt{
+    border:1px solid black;
+    width: 600px;
+    box-shadow: black 4px 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mnBdTpCt:hover{
+    box-shadow: none;
+    border: none;
+}
+.mnBdCt{
+    margin-top: 25px;
 
+}
+.mnBdCtLt, .mnBdCtRt, .mnBdCtCt{
+
+
+    width:400px;
+
+}
+.mnBdCtLt:hover, .mnBdCtRt:hover, .mnBdCtCt:hover{
+box-shadow: none;
+    border: none;
+}
 }
