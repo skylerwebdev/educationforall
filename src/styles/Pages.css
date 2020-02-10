@@ -1,5 +1,8 @@
 .mnPg{
     padding-top: 85px;
+    font-family: Poppins;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .mnBd{
     display: flex;
@@ -68,6 +71,14 @@ margin-left: -35px;
     box-shadow: none;
         border: none;
     }
+
+.hmHdrH1{
+    /* font-size:  */
+}
+.up20{
+    margin-top: -20px;
+}
+
 @media screen and (min-width: 768px) {
 .mnBd{
     flex-direction: row;

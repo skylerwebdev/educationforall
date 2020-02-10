@@ -9,9 +9,9 @@ const Home = () => {
             <div className="mnHdr">
             
             <h1 className='mnHdr hmHdrH1'>NOT A CODING BOOTCAMP</h1>
-            <h2 className="mnSubHdr SH2">"Coding Bootcamp" is a term that tends to be overrated and overused.</h2>
+            <h5 className="mnSubHdr SH2">"Coding Bootcamp" is a term that tends to be overrated and overused.</h5>
             <p>Most coding bootcamps promise that when you graduate you will magically be handed a job.
-                 Unfortunately, that is not the case. In order for MOST PEOPLE to be considered for a job as a professional developer they must have 1000+ hours of coding under their belts, have a professional resume, and have a professional portfolio.</p><p> <Link to='/devburnout'>Our 4 Week Burnout</Link> only gives you 100-150 hours of "hands on coding" experience. Never fear At Education for All we will not leave you hanging. Once you graduate from one of our programs you will automatically be hired as an intern. This will not only give you more hours of coding experience, real life portfolio pieces, and most importantly a job for your resume. SOME internships may even put a little bit of money in your pocket as well. </p>
+                 Unfortunately, that is not the case. In order for MOST PEOPLE to be considered for a job as a professional developer they must have 1000+ hours of coding under their belts, have a professional resume, and have a professional portfolio.</p><p> <Link to='/devburnout'>Our Developer Burnout course</Link> only gives you 100-150 hours of "hands on coding" experience. Never fear At Education for All we will not leave you hanging. Once you graduate from one of our programs you will automatically be hired as an intern. This will not only give you more hours of coding experience, real life portfolio pieces, and most importantly a job for your resume. SOME internships may even put a little bit of money in your pocket as well. </p>
             </div>
             <div className="mnBd">
             <div className="mnRt">
@@ -20,28 +20,26 @@ const Home = () => {
                     <h2 className="mnRtSubHdr">Current Courses</h2>
                     <ul>
                         <li>
-                            <Link to='/devburnout'>4 Week Developer Burnout Class</Link>
+                            <Link to='/devburnout'>Developer Burnout Class</Link>
                         </li>
                     </ul>
                     <h2 className="secRtSubHdr">Coming Soon</h2>
                     <ul>
-                        <li>K-12 Tutoring</li>
-                        <li>College Tutoring</li>
                         <li>Interview Prep</li>
                         <li>16 Week Developer Course</li>
                         <li>8 Week Part Time Burnout Course</li>
                         <li>32 Week Part Time Developer Course</li>
                         <li>
-                            <>Individual Computer Training (Windows, oSX, and Linux)</>
+                           <>Individual Computer Training (Windows, oSX, and Linux)</>
                         </li>
                         <li>
-                            <>Individual Tutoring Development</>
+                            <>Individual Tutoring</>
                         </li>
                         <li>
                             <>After Dinner with Scratch Ages 10-13</> 
                         </li>
-                        <li><>Continuing Education</></li>
-                        <li>And Much More to Come.</li>
+                        
+                        <li>And More to Come.</li>
                     </ul>
                 </div>
                 <div className="mnRtDiv"></div>
@@ -49,11 +47,8 @@ const Home = () => {
             <div className="mnLt">
                 <div className="mnLtHdrDiv">
                     <h1 className='mnLtHdr'>Looking for Educators</h1>
-                    <h2 className="mnLtSubHdr">Current Openings</h2>
+                  
                     <ul>
-                        <li>Student Tutors K-12 (Anyone age 13+ may apply)</li>
-                        <li>Student Tutors Development (Anyone age 13+ may apply)</li>
-                        <li>Student Tutors College Courses</li>    
                         <li>Instructors for our Computer Training Courses</li>
                         <li>Instructors for our Web Development Courses</li>
                         <li>Career Counselors</li>

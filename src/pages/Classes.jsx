@@ -1,57 +1,31 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import '../styles/Home.css'
+import React from "react";
+import { Link as L } from "react-router-dom";
+import "../styles/Home.css";
 const Classes = () => {
-    return (
-        <div className='mnPg'>
-           
-                 <h2>Classes</h2>
-            
-            <div className="mnBd">
-            <div className="mnRt">
-                <div className="mnRtHdrDiv">
-                    <h1 className='mnRtHdr'>Course Offerings K-12</h1>
-                    <ul>
-                    </ul>
-                    <h2 className="secRtSubHdr">Coming Soon</h2>
-                    <ul>
-                        <li>
-                            <>After Dinner with Scratch Ages 10-13</> 
-                            <li>Private Home School</li>
-                        <li>K-12 Tutoring</li>
-                        </li>
-                        <li>And Much More to Come</li>
-                    </ul>
-                </div>
-                <div className="mnRtDiv"></div>
-            </div>
-            <div className="mnLt">
-                <div className="mnLtHdrDiv">
-                    <h1 className='mnLtHdr'>Course Offerings 18+</h1>
-                    <ul>
-                        <li>
-                            <Link to='/devburnout'>4 Week Developer Burnout Class</Link>
-                        </li>
-                        <h2 className="secRtSubHdr">Coming Soon</h2>
+  return (
+    <div className="mnPg">
+      <h1>Course Offerings</h1>
+      <div className="mnBd">
+        <ul>
+          <li>
+            <L to="/devburnout">Developer Burnout Day (4 Weeks)</L>
+          </li>
+          <li>
+            <L to="/devburnout">Developer Burnout Evening (5 Weeks)</L>
+          </li>
+         
+         <li><h2>Coming Soon</h2></li>
+          <li>Part Time Burnout Course</li>
+          <li>16 Week Full Developer Course</li>
+          <li>32 Week Part Time Full Developer Course</li>
+          <li>Individual Computer Training (Windows, oSX, and Linux)</li>
+          <li>After Dinner with Scratch Ages 10-13</li>
+          <li>Interview Prep</li>
+          <li>Continuing Education</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-                        <li>16 Week Developer Course</li>
-                        <li>8 Week Part Time Burnout Course</li>
-                        <li>32 Week Part Time Developer Course</li>
-                            <li>Individual Computer Training (Windows, oSX, and Linux)</li>
-                        <li>
-                            <>Individual Tutoring Development</>
-                        </li>
-                        <li>College Tutoring</li>
-                        <li>Interview Prep</li>
-                       
-                        <li><>Continuing Education</></li>
-                    </ul>
-                </div>
-                <div className="mnLtDiv"></div>
-            </div>
-            </div>
-        </div>
-    )
-}
-
-export default Classes
+export default Classes;
