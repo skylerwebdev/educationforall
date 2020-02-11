@@ -13,7 +13,7 @@ export default function DevBurnoutSignup() {
       headers: {"Content-Type":"application/x-www-form-urlencoded"},
       body: encode({"form-name": "DevBurnout", data})
     })
-    console.log(data)
+    console.log(data).then(()=> alert('success')).catch(error => alert(error))
   }
   console.log(errors);
   
