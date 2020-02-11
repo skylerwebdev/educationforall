@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { NavLink as NL } from "react-router-dom";
 import "../styles/Nav.css";
-import useWindowSize from "../configs/useWindowSize";
 import E from "../sources/images/E.svg";
 
 const NavBar = () => {
-  const size = useWindowSize();
+  const size = window.innerWidth;
   const [open, setOpen] = useState(false);
 
   const shownav = () => {
@@ -19,17 +18,17 @@ const NavBar = () => {
   };
 
   return (
-    <div className={open && size.width < 768 ? "mN full" : "mN"}>
+    <div className={open && size < 768 ? "mN full" : "mN"}>
       <div className="nLt">
         <span className="open" onClick={shownav}>
         <img src={E} alt="Logo" className="logo"/>
         </span>
       </div>
 
-      <div className={open || size.width < 768 ? "nCt hidden" : "nCt"}>
+      <div className={open || size < 768 ? "nCt hidden" : "nCt"}>
          <p className="nL center" >Education for All</p> 
       </div>
-      <div className={!open || size.width > 768 ? "nRt hidden" : "nRt"}>
+      <div className={!open || size > 768 ? "nRt hidden" : "nRt"}>
         <NL className="nL" onClick={shownav} exact to="/">
           About
         </NL>
