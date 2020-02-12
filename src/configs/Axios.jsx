@@ -11,3 +11,12 @@ export const axiosWithAuth = () => {
         }
     })
 }
+export const axiosWithoutAuth = () => {
+  
+    return axios.create({
+        baseURL: 'https://eduforall.herokuapp.com/api',
+        headers:{
+            'Content-Type': 'application/json',
+        }
+    })
+}

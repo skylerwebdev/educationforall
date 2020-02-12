@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/Pages.css'
 import CarouselComponent from '../components/CarouselComponent'
-const Home = () => {
+
+export default function Home() {
+    // const hello = () => {
+
+  const [state, setState] = useState()
+
     return (
         <div className='mnPg'>
             {/* <CarouselComponent /> */}
@@ -63,4 +68,3 @@ const Home = () => {
     )
 }
 
-export default Home

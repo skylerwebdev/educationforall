@@ -1,13 +1,32 @@
-.form{
+.mnFrm{
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-input{
-    width:25%;
-    margin-top: 1rem;
-
+.frmCmpt{
+    margin-top: 15px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    padding-left: 5px;
 }
-.formBtn{
-    margin-top: 1rem;
+.frmTxtarea{
+    height: 40px;
+}
+.label{
+    text-align: left;
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+    .frmCmpt{
+        width: 50%;
+        margin: 10px auto;
+    }
+    .frmSel, .frmBtn{
+        width:50.8%;
+    }
+    .label{
+    text-align: center;
+    }
 }

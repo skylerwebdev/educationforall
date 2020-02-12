@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Pages.css'
-import { Link as L } from 'react-router-dom'
-import DevBurnoutSignup from '../components/forms/DevBurnoutSignup'
+import { Link } from 'react-router-dom'
 const PricingDevBurnout = () => {
     
     return (
@@ -35,7 +34,7 @@ const PricingDevBurnout = () => {
                                             <li>$200 to Reserve a Seat</li>
                                             <li>$250 before the beginning of each instruction week</li>
                                             </ul>
-                <h1 className="pgFtrH1 HH1"><a href='https://forms.gle/9dNqTRR18WnabLxq5'>RESERVE A SEAT TODAY</a></h1>
+                <h1 className="pgFtrH1 HH1"><Link to='/devburnout/signup'>Reserve your seat today!!!</Link></h1>
                 
                 <p>Class sizes limited to 50 people!</p>
             </div>

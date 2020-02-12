@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as L } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Home.css";
 const Classes = () => {
   return (
@@ -8,10 +8,10 @@ const Classes = () => {
       <div className="mnBd">
         <ul>
           <li>
-            <L to="/devburnout">Developer Burnout Day (4 Weeks)</L>
+            <Link to="/devburnout">Developer Burnout Day (4 Weeks)</Link>
           </li>
           <li>
-            <L to="/devburnout">Developer Burnout Evening (5 Weeks)</L>
+            <Link to="/devburnout">Developer Burnout Evening (5 Weeks)</Link>
           </li>
          
          <li><h2>Coming Soon</h2></li>
