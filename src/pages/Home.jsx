@@ -13,9 +13,9 @@ export default function Home() {
             {/* <CarouselComponent /> */}
             <div className="mnHdr">
             <h1>FREE CLASS</h1>
-            <h1 className='mnHdr hmHdrH1'>20 Pepole needed by this Monday</h1>
+            <h1 className='mnHdr hmHdrH1'>20 People needed by this Monday</h1>
             <h5 className="mnSubHdr SH2">I would like to start small coding and development classes</h5>
-            <p>I need 25-30 people to check out this course for free! This course would be great for anyone interested in the development world. There are a lot of coding bootcamps if you have ever thought about going to one this is the class for you! Once you are done you will not question it anymre.</p>
+            <p>I need 25-30 people to check out this course for free! This course would be great for anyone interested in the development world. There are a lot of coding bootcamps if you have ever thought about going to one this is the class for you! Once you are done you will not question it anymore.</p>
             <a href="https://www.notion.so/skylerwebdev/Intro-to-Bootcamp-Developer-Burnout-3-9-2020-Starts-3-9-Still-looking-for-about-20-people-e6774a80ab964604b334b57bf3cc8e20">Check here for more information including what we will cover.</a>
             <p>Email me to sign up info@skylerwebdev.tech</p>
             
