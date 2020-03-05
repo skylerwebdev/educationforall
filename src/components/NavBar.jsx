@@ -32,11 +32,11 @@ const NavBar = () => {
         <NL className="nL" onClick={shownav} exact to="/">
           About
         </NL>
-        <NL className="nL" onClick={shownav} to="/classes">
+        {/* <NL className="nL" onClick={shownav} to="/classes">
           Courses
         </NL>
         <NL className="nL" onClick={shownav} to="/jobs">
-            Careers        </NL>
+            Careers        </NL> */}
       </div>
     </div>
   );

@@ -12,13 +12,14 @@ export default function Home() {
         <div className='mnPg'>
             {/* <CarouselComponent /> */}
             <div className="mnHdr">
-            
-            <h1 className='mnHdr hmHdrH1'>NOT A CODING BOOTCAMP</h1>
-            <h5 className="mnSubHdr SH2">"Coding Bootcamp" is a term that tends to be overrated and overused.</h5>
-            <p>Most coding bootcamps promise that when you graduate you will magically be handed a job.
-                 Unfortunately, that is not the case. In order for MOST PEOPLE to be considered for a job as a professional developer they must have 1000+ hours of coding under their belts, have a professional resume, and have a professional portfolio.</p><p> <Link to='/devburnout'>Our Developer Burnout course</Link> only gives you 100-150 hours of "hands on coding" experience. Never fear At Education for All we will not leave you hanging. Once you graduate from one of our programs you will automatically be hired as an intern. This will not only give you more hours of coding experience, real life portfolio pieces, and most importantly a job for your resume. SOME internships may even put a little bit of money in your pocket as well. </p>
+            <h1>FREE CLASS</h1>
+            <h1 className='mnHdr hmHdrH1'>20 Pepole needed by this Monday</h1>
+            <h5 className="mnSubHdr SH2">I would like to start small coding and development classes</h5>
+            <p>I need 25-30 people to check out this course for free! This course would be great for anyone interested in the development world. There are a lot of coding bootcamps if you have ever thought about going to one this is the class for you! Once you are done you will not question it anymre.</p>
+            <a href="https://www.notion.so/skylerwebdev/Intro-to-Bootcamp-Developer-Burnout-3-9-2020-Starts-3-9-Still-looking-for-about-20-people-e6774a80ab964604b334b57bf3cc8e20">Check here for more information including what we will cover.</a>
+            <p>Email me to sign up info@skylerwebdev.tech</p>
             </div>
-            <div className="mnBd">
+            {/* <div className="mnBd">
             <div className="mnRt">
                 <div className="mnRtHdrDiv">
                     <h1 className='mnRtHdr'>Course Offerings</h1>
@@ -63,7 +64,7 @@ export default function Home() {
                 </div>
                 <div className="mnLtDiv"></div>
             </div>
-            </div>
+            </div> */}
         </div>
     )
 }
